@@ -157,6 +157,9 @@ video {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
+  content: '';
+  min-inline-size: 15px;
+  min-block-size: 15px;
   background-color: #FFF;
 }
 
@@ -199,7 +202,7 @@ video {
 }
 
 .title {
-  padding: 0 0 26px;
+  padding: 0 0 15px;
   color: #FFF;
   font-family: Oswald, sans-serif;
   font-weight: 700;
@@ -215,7 +218,7 @@ video {
 .content__list {
   position: relative;
   overflow-y: scroll;
-  block-size: 298px;
+  block-size: 270px;
   scrollbar-width: none;
 }
 
@@ -224,7 +227,7 @@ video {
 }
 
 .content__list-item:not(:last-child) {
-  margin: 0 0 34px;
+  margin: 0 0 23px;
 }
 
 .content__card-link {
